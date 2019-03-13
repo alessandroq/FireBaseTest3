@@ -1,4 +1,4 @@
-/* UUID: 860879-778425-560327-950641- */ 
+/* UUID: 497888-888305-735794-702288- */ 
 
 html {
     margin: auto;
@@ -18,6 +18,13 @@ img {
 
 img {
   vertical-align: middle;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .btn {
@@ -137,6 +144,26 @@ img {
   padding-left: 0px;
   padding-right: 0px;
   font-weight: normal;
+}
+
+.element.fc.Image {
+  overflow: hidden;
+  text-align: center;
+}
+
+.element.fc.Container {
+  background-color: rgb(238, 238, 238);
+}
+
+.element.fc.ListView {
+  background-color: rgb(238, 238, 238);
+  overflow-y: auto;
+}
+
+.element.fc.ListViewCell {
+  overflow: hidden;
+  position: static !important;
+  width: 100% !important;
 }
 
 .element.fc.Screen {
